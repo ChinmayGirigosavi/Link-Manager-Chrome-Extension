@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    background: #eff1ff;
+}
+
+
+#title {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+#title1-el {
+    margin: 10px 8px 10px 0px;
+}
+
+#title2-el {
+    color:#8190ff;
+    margin: 10px 8px 20px 0px;
+    border-bottom: 3px solid #8190ff;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#input-el {
+    width: 100%;
+    border: 1px solid #9da8fa;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #8190ff;
+    background: #8190ff;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px 0px;
+}
+
+button:hover {
+    border: 1px solid #8190ff;
+    color: #8190ff;
+    background: white;
+}
+
+#save-btn {
+    border-end-start-radius: 10px;
+    border-end-end-radius: 10px;
+}
+
+#delete-btn {
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+li {
+    margin-top: 4px;
+    overflow: hidden;         /* 1. Hide the text that overflows the container */
+    white-space: nowrap;      /* 2. Prevent the text from wrapping to the next line */
+    text-overflow: ellipsis;  /* 3. Add '...' to the end of the clipped text */
+}
+
+li a {
+    color: #343433;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#footer-el {
+    text-align: center;
+    background: #d8ddff;
+    font-size: x-small;
+    padding: 12px 0px;
+}
+
+#footer-el a {
+    text-decoration: none;
+    color: #6779ff;
+    margin: 0px 2px;
+}
+
+#footer-el a:hover {
+    text-decoration: underline;
+}
+
